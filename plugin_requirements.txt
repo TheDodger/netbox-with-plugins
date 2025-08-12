@@ -10,8 +10,8 @@ netbox-topology-views
 netboxlabs-diode-netbox-plugin
 netboxlabs-netbox-branching
 #slurpit_netbox
-nb-service
-nbrisk
+#nb-service
+#nbrisk
 netbox-config-diff
 netbox-contract
 netbox-interface-synchronization
