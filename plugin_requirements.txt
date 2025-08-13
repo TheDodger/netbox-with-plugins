@@ -1,4 +1,4 @@
-#ipfabric-netbox
+# ipfabric-netbox
 netbox-acls
 netbox-bgp
 netbox-floorplan-plugin
@@ -9,9 +9,9 @@ netbox-secrets
 netbox-topology-views
 netboxlabs-diode-netbox-plugin
 netboxlabs-netbox-branching
-#slurpit_netbox
-#nb-service
-#nbrisk
+# slurpit_netbox
+# nb-service
+# nbrisk
 netbox-config-diff
 netbox-contract
 netbox-interface-synchronization
