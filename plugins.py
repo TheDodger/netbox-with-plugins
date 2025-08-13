@@ -24,3 +24,10 @@ PLUGINS = [
     'validity',
     'netbox_branching',
 ]
+
+PLUGINS_CONFIG = {
+    'netbox_config_diff': {
+        'USERNAME': 'foo',
+        'PASSWORD': 'bar',
+    },
+}
