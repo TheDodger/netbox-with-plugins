@@ -1,24 +1,24 @@
-# ipfabric-netbox
-netbox-acls
-netbox-bgp
-netbox-floorplan-plugin
-netbox-plugin-dns
-netbox-qrcode
-netbox-reorder-rack
-netbox-secrets
-netbox-topology-views
-netboxlabs-diode-netbox-plugin
-netboxlabs-netbox-branching
-# slurpit_netbox
-# nb-service
-# nbrisk
-netbox-config-diff
-netbox-contract
-netbox-interface-synchronization
-netbox-inventory
-netbox-lifecycle
-netbox-otp-plugin
-netbox-plugin-prometheus-sd
-netbox-routing
-netbox-security
-netbox-validity
+# ipfabric-netbox == 5.6.1
+netbox-acls == 2.0.0
+netbox-bgp == 0.18.1
+netbox-floorplan-plugin == 0.9.0
+netbox-plugin-dns == 1.5.2
+netbox-qrcode == 0.0.20
+netbox-reorder-rack == 1.1.4
+netbox-secrets == 3.0.0
+netbox-topology-views == 4.5.0
+netboxlabs-diode-netbox-plugin == 1.14.1
+netboxlabs-netbox-branching == 1.1.2
+# slurpit_netbox == 1.3.37
+# nb-service == 4.2.0 # Outdated as of 20250812
+# nbrisk == 41.0.1 # Outdated as of 20250812
+netbox-config-diff == 2.14.2
+netbox-contract == 2.4.4
+netbox-interface-synchronization == 4.1.7
+netbox-inventory == 2.5.0
+netbox-lifecycle == 1.1.7
+# netbox-otp-plugin == 1.3.4 # Outdated as of 20260726
+netbox-plugin-prometheus-sd == 1.3.0
+netbox-routing == 0.4.1
+netbox-security == 1.4.5
+netbox-validity == 3.5.2
