@@ -6,14 +6,21 @@ name: Docker
 # documentation.
 
 on:
-  schedule:
-    - cron: "31 17 * * *"
-  push:
-    branches: ["main"]
-    # Publish semver tags as releases.
-    tags: ["v*.*.*"]
-  pull_request:
-    branches: ["main"]
+  # Fires when a branch or tag is created, including direct tag pushes
+  # (git push origin v1.2.3). The job-level `if:` guard below ensures only
+  # tag creates are processed and branch creates are skipped.
+  create:
+  # Fires when a GitHub Release is published via the UI or auto-release.yml.
+  release:
+    types: [published]
+  # Allows auto-release.yml to explicitly start the Docker publish workflow for
+  # tags/releases it creates with GITHUB_TOKEN.
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Docker image tag to publish"
+        required: true
+        type: string
 
 env:
   # Use docker.io for Docker Hub if empty
@@ -30,6 +37,22 @@ jobs:
       # This is used to complete the identity challenge
       # with sigstore/fulcio when running outside of PRs.
       id-token: write
+    # Only run for tag creation, published releases, or explicit dispatches —
+    # skip branch creates (e.g. Renovate branches) to avoid invalid Docker tag
+    # errors.
+    if: |
+      (
+        github.event_name == 'workflow_dispatch' &&
+        inputs.tag != ''
+      ) ||
+      github.ref_type == 'tag' ||
+      github.event_name == 'release'
+    # Prevent duplicate builds when both `create` (tag push) and
+    # `release: published` fire for the same version.  The later-arriving
+    # run cancels the earlier one.
+    concurrency:
+      group: docker-image-${{ github.event_name == 'workflow_dispatch' && inputs.tag || github.event.release.tag_name || github.ref_name }}
+      cancel-in-progress: true
 
     steps:
       - name: Checkout repository
