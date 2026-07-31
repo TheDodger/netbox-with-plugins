@@ -18,7 +18,7 @@ netbox-data-flows == 1.5.1
 # netbox-plugin-dhcp == 0.1.9
 netbox-plugin-dns == 1.5.7
 netbox-plugin-prometheus-sd == 2.0.0
-netbox-qrcode == 0.0.20
+netbox-qrcode ==0.0.21
 netbox-reorder-rack == 1.1.4
 netbox-routing == 0.4.3
 netbox-secrets == 3.0.2
