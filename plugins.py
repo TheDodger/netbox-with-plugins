@@ -20,6 +20,7 @@ PLUGINS = [
     "netbox_inventory",
     "netbox_ipcalculator",
     "netbox_lifecycle",
+    "netbox_napalm_plugin",
     # "netbox_otp_plugin", # Outdated as of 20260726
     "netbox_prometheus_sd",
     "netbox_qrcode",
@@ -36,5 +37,9 @@ PLUGINS_CONFIG = {
     "netbox_config_diff": {
         "USERNAME": "foo",
         "PASSWORD": "bar",
+    },
+    "netbox_napalm_plugin": {
+        "NAPALM_USERNAME": "xxx",
+        "NAPALM_PASSWORD": "yyy",
     },
 }
