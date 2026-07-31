@@ -16,7 +16,7 @@ netbox-lifecycle == 1.1.9
 # netbox-otp-plugin == 1.3.4 # Outdated as of 20260726
 netbox-data-flows == 1.5.1
 # netbox-plugin-dhcp == 0.1.9
-netbox-plugin-dns == 1.5.7
+netbox-plugin-dns ==1.5.11
 netbox-plugin-prometheus-sd == 2.0.0
 netbox-qrcode == 0.0.20
 netbox-reorder-rack == 1.1.4
