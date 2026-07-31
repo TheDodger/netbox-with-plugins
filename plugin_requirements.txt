@@ -9,7 +9,7 @@ netbox-config-diff == 2.14.2
 netbox-contract == 2.4.4
 # netbox-documents == 0.8.5
 netbox-floorplan-plugin == 0.9.0
-netbox-interface-synchronization == 4.1.7
+netbox-interface-synchronization ==4.5.8
 netbox-inventory == 2.5.0
 # netbox-ipcalculator == 1.4.11
 netbox-lifecycle == 1.1.7
