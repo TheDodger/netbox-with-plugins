@@ -7,7 +7,7 @@ PLUGINS = [
     "netbox_attachments",
     "netbox_bgp",
     "netbox_branching",
-    # "netbox_config_diff",
+    "netbox_config_diff",
     "netbox_contract",
     "netbox_custom_objects",
     "netbox_data_flows",
