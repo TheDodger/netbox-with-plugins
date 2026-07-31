@@ -2,7 +2,7 @@ inventory-monitor == 13.4.1
 # ipfabric-netbox == 5.6.1
 # nb-service == 4.2.0 # Outdated as of 20250812
 # nbrisk == 41.0.1 # Outdated as of 20250812
-netbox-acls == 2.0.1
+netbox-acls ==2.0.2
 netbox-attachments == 11.3.1
 netbox-bgp == 0.18.1
 # netbox-config-diff == 2.14.2 # Breaks Netbox v4.5.10
