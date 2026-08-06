@@ -1,4 +1,4 @@
-inventory-monitor == 13.4.1
+inventory-monitor ==14.0.0
 # ipfabric-netbox == 5.6.1
 # nb-service == 4.2.0 # Outdated as of 20250812
 # nbrisk == 41.0.1 # Outdated as of 20250812
