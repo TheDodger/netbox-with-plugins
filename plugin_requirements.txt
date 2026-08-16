@@ -6,7 +6,7 @@ netbox-acls == 2.0.2
 netbox-attachments == 11.3.1
 netbox-bgp == 0.19.0
 netbox-config-diff == 2.15.1
-netbox-contract == 2.4.6
+netbox-contract ==2.4.7
 netbox-documents == 0.8.5
 netbox-floorplan-plugin == 0.9.2
 netbox-interface-synchronization == 4.5.8
