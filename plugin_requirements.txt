@@ -17,7 +17,7 @@ netbox-lifecycle == 1.1.9
 netbox-data-flows == 1.5.3
 netbox-napalm-plugin == 0.3.5
 # netbox-plugin-dhcp == 0.1.9
-netbox-plugin-dns == 1.5.11
+netbox-plugin-dns ==1.7.2
 netbox-plugin-prometheus-sd == 2.0.0
 netbox-qrcode == 0.0.21
 netbox-reorder-rack == 1.1.4
