@@ -24,7 +24,7 @@ netbox-reorder-rack == 1.1.4
 netbox-routing == 0.4.3
 netbox-secrets == 3.1.1
 netbox-security == 1.5.10
-netbox-topology-views == 4.5.1
+netbox-topology-views ==4.7.0
 netbox-validity == 3.5.2
 netboxlabs-diode-netbox-plugin == 1.14.1
 netboxlabs-netbox-custom-objects == 0.6.0
