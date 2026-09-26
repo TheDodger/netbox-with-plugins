@@ -23,7 +23,7 @@ netbox-qrcode == 0.0.21
 netbox-reorder-rack == 1.1.4
 netbox-routing == 0.4.3
 netbox-secrets == 3.1.1
-netbox-security == 1.5.10
+netbox-security ==1.6.8
 netbox-topology-views == 4.5.1
 netbox-validity == 3.5.2
 netboxlabs-diode-netbox-plugin == 1.14.1
